@@ -1,1 +1,75 @@
-{"_comment": "PLACEHOLDER — Will be populated after final build"}
+{
+  "merkle_root": "8038a44578aab8d3e07f41a86be1542307289fa1f2c7fa22a0b4f5b9fe188a72",
+  "leaf_count": 17,
+  "leaves": [
+    {
+      "path": "SC-AXIOM-000001.pdf",
+      "sha256": "e3b264f494aa3dad0a97767098711926cee9263d9ebf7f833361dd4d7bc7f2d3"
+    },
+    {
+      "path": "SC-CORE-000001.pdf",
+      "sha256": "ff6541c9df3d65c007c2290ea1c062fb1a2f7523dd760f0a006f15b8260c1611"
+    },
+    {
+      "path": "SC-HDR-000001.pdf",
+      "sha256": "e8a7bc55facf1f43175c189c3f645021ee1d3b272c71fa919752a9e7164b3b08"
+    },
+    {
+      "path": "SC-SCOPE-000001.pdf",
+      "sha256": "aba6133149c77f8cc9c23eecdfbd6a5f56e6400e27e7231ae333918bd9fbf757"
+    },
+    {
+      "path": "specs/canonical/SC-AXIOM-000001.md",
+      "sha256": "05369abb763240e0a5689cd387706784c55fce98c0b9bc29338172b86ed891cc"
+    },
+    {
+      "path": "specs/canonical/SC-CORE-000001.md",
+      "sha256": "3a9b7ac0b9f2c896e7206d6892e9992ebaedab6054e83b97885ad1c55ade93d9"
+    },
+    {
+      "path": "specs/canonical/SC-HDR-000001.md",
+      "sha256": "7ae85cc4eba408ba7602434be7daaacb24223a7075c97dba296d682f6c74f54d"
+    },
+    {
+      "path": "specs/canonical/SC-SCOPE-000001.md",
+      "sha256": "75f01d22731a476a133f8c566d916fd642eafd9a1f3b09b75cf70f733ab21daf"
+    },
+    {
+      "path": "specs/certificates/rcc__SC-AXIOM-000001__v11l__v03.md",
+      "sha256": "3b6ed3e18452938809243c2a7ecc058d08b5ab0581fdeebbe1997d8280e033d0"
+    },
+    {
+      "path": "specs/certificates/rcc__SC-CORE-000001__v39d__v03.md",
+      "sha256": "8d0ce684d36364463aec78c7833172b416a76d2c8f0e91523571b541626e0343"
+    },
+    {
+      "path": "specs/certificates/rcc__SC-HDR-000001__v11__v02.md",
+      "sha256": "01bfc8e7cf0b7188bf62bfa5660f3707d190918ef4588607d5f92a53b0a30188"
+    },
+    {
+      "path": "specs/certificates/rcc__SC-SCOPE-000001__v05__v02.md",
+      "sha256": "2fe253c01c4cfe9717147f986c94fb80525a7a67835ebde8b26d1d5f9eb9fba8"
+    },
+    {
+      "path": "specs/stewardship/SC-AUTHORSHIP-000001.md",
+      "sha256": "2955b8159f7dc22f9b5bfafca7f3b6606221f308bcc9ee5f9c2f8edd7491c6a0"
+    },
+    {
+      "path": "specs/stewardship/SC-GOV-000001.md",
+      "sha256": "ea8c9f11c2a53e68a0ce90e8abce6bc5fec2b2c657bac69433b208f80fc1f2de"
+    },
+    {
+      "path": "specs/stewardship/SC-LICENSE-000001.md",
+      "sha256": "34be6964da031247fe27b86ece16bce2f1ba23a75f0d953cf9e6666ec67a35e2"
+    },
+    {
+      "path": "specs/stewardship/SC-NAME-000001.md",
+      "sha256": "556fc017f10df27eef641918a2072fd2a93ac8f59e13fbfd0c470b61e58f6dac"
+    },
+    {
+      "path": "specs/stewardship/SC-TM-000001.md",
+      "sha256": "2ef6b8f9659251e25cac25e14901cc4d1b55110ac201a2767f0858b6ea413d51"
+    }
+  ],
+  "root_computation": "SHA-256 binary tree over sorted artifact hashes"
+}

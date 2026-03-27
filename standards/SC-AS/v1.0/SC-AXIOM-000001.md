@@ -14,7 +14,7 @@
 - Superseded By:
 - Header Schema: SC-HDR-000001 (Issuance ID: v11)
 - Integrity:
-  - SHA-256: e8230190f53d5100e7054506facab4c0414eaedfbbcf23853ed8d1e98fb3b987
+  - SHA-256: 05369abb763240e0a5689cd387706784c55fce98c0b9bc29338172b86ed891cc
   - Release Tag: 2026-03-19__v11l
 
 ---
@@ -22,9 +22,13 @@
 ## Document Class Extension: SPEC (Informative / Non-Normative Metadata)
 
 SPEC::Header-Schema-Version: 0.4
+
 SPEC::Standard: Structural Coherence
+
 SPEC::Spec-Subclass: axioms-spec
+
 SPEC::Revisability: Versioned Only
+
 SPEC::Canonical-Dependencies: SC-HDR-000001 (v11), SC-CORE-000001 (v39d)
 
 ---

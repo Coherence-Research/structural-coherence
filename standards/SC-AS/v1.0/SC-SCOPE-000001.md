@@ -1,6 +1,3 @@
-# SC-SCOPE-000001
-Canonical Semantic Scope and Non-Prescriptive Clause
-
 ## Canonical Document Header (Informative / Non-Normative Metadata)
 
 - Document ID: SC-SCOPE-000001
@@ -17,7 +14,7 @@ Canonical Semantic Scope and Non-Prescriptive Clause
 - Superseded By:
 - Header Schema: SC-HDR-000001 (Issuance ID: v11)
 - Integrity:
-  - SHA-256: 3da0d6a6fa5b796e3e0bb1ca88f1412818bd9e12976b583056734ca44d835e77
+  - SHA-256: 75f01d22731a476a133f8c566d916fd642eafd9a1f3b09b75cf70f733ab21daf
   - Release Tag: 2026-03-19__v05
 
 ---
@@ -25,12 +22,21 @@ Canonical Semantic Scope and Non-Prescriptive Clause
 ## Document Class Extension: SPEC (Informative / Non-Normative Metadata)
 
 SPEC::Header-Schema-Version: 0.4
+
 SPEC::Standard: Structural Coherence
+
 SPEC::Spec-Subclass: scope-spec
+
 SPEC::Revisability: Versioned Only
+
 SPEC::Canonical-Dependencies: SC-HDR-000001 (v11), SC-CORE-000001 (v39d), SC-AXIOM-000001 (v11l)
 
 ---
+
+# Canonical Semantic Scope and Non-Prescriptive Clause
+
+---
+
 ## 1. Purpose
 
 This specification defines the binding semantic scope of the Structural Coherence — Anchor Specification (SC-AS).

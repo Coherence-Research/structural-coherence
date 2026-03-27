@@ -5,19 +5,19 @@
 - Document ID: SC-LICENSE-000001
 - Canonical Name: Structural Coherence Text License (CC BY-ND 4.0) (NON-NORMATIVE)
 - Document Class: POLICY
-- Version: 0.3.0
-- Issuance ID: v04
+- Version: 0.3.1
+- Issuance ID: v05
 - Release Status: ISSUED
-- Effective Date: 2026-03-17
-- Last Updated: 2026-03-17
+- Effective Date: 2026-03-25
+- Last Updated: 2026-03-25
 - Issuing Authority: Coherence Research
 - DOI / Persistent ID:
-- Supersedes: SC-LICENSE-000001 (Issuance ID: v03a)
+- Supersedes: SC-LICENSE-000001 (Issuance ID: v04)
 - Superseded By:
-- Header Schema: SC-HDR-000001 (Issuance ID: v10)
+- Header Schema: SC-HDR-000001 (Issuance ID: v11)
 - Integrity:
-  - SHA-256: b261212ebd537b5c45524fbd7a6d6eeb11ee543d7484573a7aba528f6f10a13a
-  - Release Tag: 2026-03-17__v04
+  - SHA-256: 34be6964da031247fe27b86ece16bce2f1ba23a75f0d953cf9e6666ec67a35e2
+  - Release Tag: 2026-03-25__v05
 
 ---
 

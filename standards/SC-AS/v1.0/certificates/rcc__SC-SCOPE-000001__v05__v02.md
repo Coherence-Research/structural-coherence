@@ -3,19 +3,19 @@
 - Document ID: RCC-SC-SCOPE-000001
 - Canonical Name: Reflexive Closure Certificate — SC-SCOPE-000001
 - Document Class: RCC
-- Version: 1.0.0
-- Issuance ID: v01
+- Version: 1.0.1
+- Issuance ID: v02
 - Release Status: ISSUED
-- Effective Date: 2026-03-12
-- Last Updated: 2026-03-12
+- Effective Date: 2026-03-25
+- Last Updated: 2026-03-25
 - Issuing Authority: Coherence Research
 - DOI / Persistent ID:
-- Supersedes:
+- Supersedes: RCC-SC-SCOPE-000001 (Issuance ID: v01)
 - Superseded By:
-- Header Schema: SC-HDR-000001 (Issuance ID: v10)
+- Header Schema: SC-HDR-000001 (Issuance ID: v11)
 - Integrity:
-  - SHA-256: 99b2d0ccb082fda8a022c9fc5bcb4860f972114c35790278387b92675f3521ab
-  - Release Tag: SC-AS-v1.0
+  - SHA-256: 2fe253c01c4cfe9717147f986c94fb80525a7a67835ebde8b26d1d5f9eb9fba8
+  - Release Tag: 2026-03-25__v02
 
 ---
 
@@ -23,8 +23,8 @@
 
 RCC::Schema-Version: 0.1
 RCC::Target-Document-ID: SC-SCOPE-000001
-RCC::Target-SHA-256: 1903b0dbcdb69e851cae53b62facdb5f6ae6027077950fc9703b798bcbb8dd2e
-RCC::Basis: SC-AS (SC-HDR-000001 v10; SC-SCOPE-000001 v04; SC-CORE-000001 v39c; SC-AXIOM-000001 v11k)
+RCC::Target-SHA-256: 75f01d22731a476a133f8c566d916fd642eafd9a1f3b09b75cf70f733ab21daf
+RCC::Basis: SC-AS (SC-HDR-000001 v11; SC-SCOPE-000001 v05; SC-CORE-000001 v39d; SC-AXIOM-000001 v11l)
 RCC::Result: PASS
 
 ---

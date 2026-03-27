@@ -5,19 +5,19 @@
 - Document ID: SC-AUTHORSHIP-000001
 - Canonical Name: Structural Coherence Authorship Declaration (NON-NORMATIVE)
 - Document Class: POLICY
-- Version: 0.2.1
-- Issuance ID: v03a
+- Version: 0.2.2
+- Issuance ID: v04
 - Release Status: ISSUED
-- Effective Date: 2026-03-11
-- Last Updated: 2026-03-11
+- Effective Date: 2026-03-25
+- Last Updated: 2026-03-25
 - Issuing Authority: Coherence Research
 - DOI / Persistent ID:
-- Supersedes: SC-AUTHORSHIP-000001 (Issuance ID: v03)
+- Supersedes: SC-AUTHORSHIP-000001 (Issuance ID: v03a)
 - Superseded By:
-- Header Schema: SC-HDR-000001 (Issuance ID: v10)
+- Header Schema: SC-HDR-000001 (Issuance ID: v11)
 - Integrity:
-  - SHA-256: 8bf07e6d1f18dd968d398115a87c58bfacfd52764fdbc29bf90ad630e375e80a
-  - Release Tag: 2026-03-11__v03a
+  - SHA-256: 2955b8159f7dc22f9b5bfafca7f3b6606221f308bcc9ee5f9c2f8edd7491c6a0
+  - Release Tag: 2026-03-25__v04
 
 ---
 

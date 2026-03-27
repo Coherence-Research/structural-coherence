@@ -1,7 +1,206 @@
 {
-  "_comment": "PLACEHOLDER — Will be populated with final SHA-256 hashes after DOI registration and PGP signing",
-  "release_id": "SC-AS__v1.0",
-  "release_date": "2026-03-26",
-  "issuing_authority": "Coherence Research",
-  "artifacts": []
+  "release": {
+    "name": "SC-AS Constitutional Release v1.0",
+    "version": "1.0.0",
+    "release_tag": "SC-AS-v1.0",
+    "date": "2026-03-25",
+    "issuing_authority": "Coherence Research",
+    "header_schema": "SC-HDR-000001 (Issuance ID: v11)",
+    "repository": "https://github.com/Coherence-Research/coherence-core",
+    "doi": {
+      "SC-CORE-000001": "10.5281/zenodo.18039635",
+      "SC-AXIOM-000001": "10.5281/zenodo.18043770"
+    },
+    "validation": {
+      "phases_1_7": "PASS (13/13 artifacts)",
+      "phase_8": "PASS (with documented finding F-001)",
+      "phase_9": "PENDING (PGP signing required)"
+    }
+  },
+  "artifacts": [
+    {
+      "document_id": "SC-CORE-000001",
+      "canonical_name": "THE COHERENCE CORE SPECIFICATION",
+      "document_class": "SPEC",
+      "issuance_id": "v39d",
+      "version": "1.2.5",
+      "artifact_type": "canonical-source",
+      "governance_tier": 0,
+      "path": "specs/canonical/SC-CORE-000001.md",
+      "size_bytes": 142249,
+      "sha256": "3a9b7ac0b9f2c896e7206d6892e9992ebaedab6054e83b97885ad1c55ade93d9"
+    },
+    {
+      "document_id": "SC-AXIOM-000001",
+      "canonical_name": "THE COHERENCE AXIOMS SPECIFICATION",
+      "document_class": "SPEC",
+      "issuance_id": "v11l",
+      "version": "1.0.0",
+      "artifact_type": "canonical-source",
+      "governance_tier": 0,
+      "path": "specs/canonical/SC-AXIOM-000001.md",
+      "size_bytes": 74064,
+      "sha256": "05369abb763240e0a5689cd387706784c55fce98c0b9bc29338172b86ed891cc"
+    },
+    {
+      "document_id": "SC-HDR-000001",
+      "canonical_name": "Structural Coherence Document Header Specification",
+      "document_class": "SPEC",
+      "issuance_id": "v11",
+      "version": "0.4.0",
+      "artifact_type": "canonical-source",
+      "governance_tier": 0,
+      "path": "specs/canonical/SC-HDR-000001.md",
+      "size_bytes": 15363,
+      "sha256": "7ae85cc4eba408ba7602434be7daaacb24223a7075c97dba296d682f6c74f54d"
+    },
+    {
+      "document_id": "SC-SCOPE-000001",
+      "canonical_name": "Canonical Semantic Scope and Non-Prescriptive Clause",
+      "document_class": "SPEC",
+      "issuance_id": "v05",
+      "version": "1.1.0",
+      "artifact_type": "canonical-source",
+      "governance_tier": 0,
+      "path": "specs/canonical/SC-SCOPE-000001.md",
+      "size_bytes": 7337,
+      "sha256": "75f01d22731a476a133f8c566d916fd642eafd9a1f3b09b75cf70f733ab21daf"
+    },
+    {
+      "document_id": "SC-GOV-000001",
+      "canonical_name": "Governance and Versioning (NON-NORMATIVE)",
+      "document_class": "FRAMEWORK",
+      "issuance_id": "v08",
+      "version": "0.5.1",
+      "artifact_type": "canonical-source",
+      "governance_tier": 3,
+      "path": "specs/stewardship/SC-GOV-000001.md",
+      "size_bytes": 9151,
+      "sha256": "ea8c9f11c2a53e68a0ce90e8abce6bc5fec2b2c657bac69433b208f80fc1f2de"
+    },
+    {
+      "document_id": "SC-LICENSE-000001",
+      "canonical_name": "Structural Coherence Text License (CC BY-ND 4.0) (NON-NORMATIVE)",
+      "document_class": "POLICY",
+      "issuance_id": "v05",
+      "version": "0.3.1",
+      "artifact_type": "canonical-source",
+      "governance_tier": 3,
+      "path": "specs/stewardship/SC-LICENSE-000001.md",
+      "size_bytes": 2826,
+      "sha256": "34be6964da031247fe27b86ece16bce2f1ba23a75f0d953cf9e6666ec67a35e2"
+    },
+    {
+      "document_id": "SC-NAME-000001",
+      "canonical_name": "Structural Coherence Naming and Layering Policy (NON-NORMATIVE)",
+      "document_class": "POLICY",
+      "issuance_id": "v04",
+      "version": "0.2.2",
+      "artifact_type": "canonical-source",
+      "governance_tier": 3,
+      "path": "specs/stewardship/SC-NAME-000001.md",
+      "size_bytes": 6853,
+      "sha256": "556fc017f10df27eef641918a2072fd2a93ac8f59e13fbfd0c470b61e58f6dac"
+    },
+    {
+      "document_id": "SC-TM-000001",
+      "canonical_name": "Structural Coherence Trademark Policy (NON-NORMATIVE)",
+      "document_class": "POLICY",
+      "issuance_id": "v04",
+      "version": "0.2.2",
+      "artifact_type": "canonical-source",
+      "governance_tier": 3,
+      "path": "specs/stewardship/SC-TM-000001.md",
+      "size_bytes": 4196,
+      "sha256": "2ef6b8f9659251e25cac25e14901cc4d1b55110ac201a2767f0858b6ea413d51"
+    },
+    {
+      "document_id": "SC-AUTHORSHIP-000001",
+      "canonical_name": "Structural Coherence Authorship Declaration (NON-NORMATIVE)",
+      "document_class": "POLICY",
+      "issuance_id": "v04",
+      "version": "0.2.2",
+      "artifact_type": "canonical-source",
+      "governance_tier": 3,
+      "path": "specs/stewardship/SC-AUTHORSHIP-000001.md",
+      "size_bytes": 3773,
+      "sha256": "2955b8159f7dc22f9b5bfafca7f3b6606221f308bcc9ee5f9c2f8edd7491c6a0"
+    },
+    {
+      "document_id": "RCC-SC-CORE-000001",
+      "canonical_name": "Reflexive Closure Certificate — SC-CORE-000001",
+      "document_class": "RCC",
+      "issuance_id": "v03",
+      "version": "1.0.2",
+      "artifact_type": "canonical-source",
+      "governance_tier": 2,
+      "path": "specs/certificates/rcc__SC-CORE-000001__v39d__v03.md",
+      "size_bytes": 2423,
+      "sha256": "8d0ce684d36364463aec78c7833172b416a76d2c8f0e91523571b541626e0343"
+    },
+    {
+      "document_id": "RCC-SC-AXIOM-000001",
+      "canonical_name": "Reflexive Closure Certificate — SC-AXIOM-000001",
+      "document_class": "RCC",
+      "issuance_id": "v03",
+      "version": "1.0.2",
+      "artifact_type": "canonical-source",
+      "governance_tier": 2,
+      "path": "specs/certificates/rcc__SC-AXIOM-000001__v11l__v03.md",
+      "size_bytes": 2455,
+      "sha256": "3b6ed3e18452938809243c2a7ecc058d08b5ab0581fdeebbe1997d8280e033d0"
+    },
+    {
+      "document_id": "RCC-SC-HDR-000001",
+      "canonical_name": "Reflexive Closure Certificate — SC-HDR-000001",
+      "document_class": "RCC",
+      "issuance_id": "v02",
+      "version": "1.0.1",
+      "artifact_type": "canonical-source",
+      "governance_tier": 2,
+      "path": "specs/certificates/rcc__SC-HDR-000001__v11__v02.md",
+      "size_bytes": 1814,
+      "sha256": "01bfc8e7cf0b7188bf62bfa5660f3707d190918ef4588607d5f92a53b0a30188"
+    },
+    {
+      "document_id": "RCC-SC-SCOPE-000001",
+      "canonical_name": "Reflexive Closure Certificate — SC-SCOPE-000001",
+      "document_class": "RCC",
+      "issuance_id": "v02",
+      "version": "1.0.1",
+      "artifact_type": "canonical-source",
+      "governance_tier": 2,
+      "path": "specs/certificates/rcc__SC-SCOPE-000001__v05__v02.md",
+      "size_bytes": 1829,
+      "sha256": "2fe253c01c4cfe9717147f986c94fb80525a7a67835ebde8b26d1d5f9eb9fba8"
+    },
+    {
+      "document_id": "SC-CORE-000001",
+      "artifact_type": "derived-pdf",
+      "filename": "SC-CORE-000001.pdf",
+      "size_bytes": 187314,
+      "sha256": "ff6541c9df3d65c007c2290ea1c062fb1a2f7523dd760f0a006f15b8260c1611"
+    },
+    {
+      "document_id": "SC-AXIOM-000001",
+      "artifact_type": "derived-pdf",
+      "filename": "SC-AXIOM-000001.pdf",
+      "size_bytes": 166146,
+      "sha256": "e3b264f494aa3dad0a97767098711926cee9263d9ebf7f833361dd4d7bc7f2d3"
+    },
+    {
+      "document_id": "SC-HDR-000001",
+      "artifact_type": "derived-pdf",
+      "filename": "SC-HDR-000001.pdf",
+      "size_bytes": 60278,
+      "sha256": "e8a7bc55facf1f43175c189c3f645021ee1d3b272c71fa919752a9e7164b3b08"
+    },
+    {
+      "document_id": "SC-SCOPE-000001",
+      "artifact_type": "derived-pdf",
+      "filename": "SC-SCOPE-000001.pdf",
+      "size_bytes": 33563,
+      "sha256": "aba6133149c77f8cc9c23eecdfbd6a5f56e6400e27e7231ae333918bd9fbf757"
+    }
+  ]
 }
